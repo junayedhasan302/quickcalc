@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "QuickCalc",
+  "version": "1.0.0",
+  "description": "A quick calculator, unit converter and physics reference.",
+  "action": {
+    "default_title": "Open QuickCalc",
+    "default_popup": "index.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+C"
+      },
+      "description": "Open QuickCalc"
+    }
+  }
+}
